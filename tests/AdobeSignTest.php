@@ -1,14 +1,14 @@
 <?php
 
 
-namespace KevinEm\OAuth2\Client\Tests;
+namespace Eazieer\OAuth2\Client\Tests;
 
-use KevinEm\OAuth2\Client\AdobeSign;
+use Eazieer\OAuth2\Client\AdobeSign;
 use Mockery as m;
 
 /**
  * Class AdobeSignTest
- * @package KevinEm\OAuth2\Client\Tests
+ * @package Eazieer\OAuth2\Client\Tests
  */
 class AdobeSignTest extends \PHPUnit_Framework_TestCase
 {

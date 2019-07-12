@@ -1,5 +1,5 @@
 {
-  "name": "kevinem/oauth2-adobe-sign",
+  "name": "eazieer/oauth2-adobe-sign-v6",
   "description": "Adobe Sign OAuth 2.0 Client Provider for The PHP League OAuth2-Client",
   "require": {
     "php": ">=5.6.0",
@@ -11,19 +11,23 @@
   },
   "license": "MIT",
   "authors": [
-    {
-      "name": "Kevin Em",
-      "email": "kevinem@thinkdevise.com"
-    }
+      {
+          "name": "EAZIEER",
+          "email": "contact@eazieer.com"
+      },
+      {
+          "name": "Kevin Em",
+          "email": "kevinem@thinkdevise.com"
+      }
   ],
   "autoload": {
     "psr-4": {
-      "KevinEm\\OAuth2\\Client\\": "src/"
+      "Eazieer\\OAuth2\\Client\\": "src/"
     }
   },
   "autoload-dev": {
     "psr-4": {
-      "KevinEm\\OAuth2\\Client\\Test\\": "tests/"
+      "Eazieer\\OAuth2\\Client\\Test\\": "tests/"
     }
   }
 }

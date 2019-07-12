@@ -3,27 +3,28 @@
 https://acrobat.adobe.com/us/en/sign.html
 
 This package provides Adobe Sign OAuth 2.0 support for The PHP League's [OAuth 2.0 Client](https://github.com/thephpleague/oauth2-client).
+Forked from the great work of Kevin Em for V5 Adobe API https://github.com/kevinem/oauth2-adobe-sgin
 
-[![Latest Stable Version](https://poser.pugx.org/kevinem/oauth2-adobe-sign/v/stable?format=flat-square)](https://packagist.org/packages/kevinem/oauth2-adobe-sign)
-[![License](https://poser.pugx.org/kevinem/oauth2-adobe-sign/license?format=flat-square)](https://packagist.org/packages/kevinem/oauth2-adobe-sign)
-[![Build Status](https://travis-ci.org/kevinem/oauth2-adobe-sign.svg?branch=master)](https://travis-ci.org/kevinem/oauth2-adobe-sign)
+[![Latest Stable Version](https://poser.pugx.org/eazieer/oauth2-adobe-sign-v6/v/stable?format=flat-square)](https://packagist.org/packages/eazieer/oauth2-adobe-sign-v6)
+[![License](https://poser.pugx.org/eazieer/oauth2-adobe-sign-v6/license?format=flat-square)](https://packagist.org/packages/eazieer/oauth2-adobe-sign-v6)
+[![Build Status](https://travis-ci.org/eazieer/oauth2-adobe-sign-v6.svg?branch=master)](https://travis-ci.org/eazieer/oauth2-adobe-sign-v6)
 
 ## Installation
 
 To install, use composer:
 
 ```
-composer require kevinem/oauth2-adobe-sign
+composer require eazieer/oauth2-adobe-sign-v6
 ```
 
 ## Usage
 
-Use [The League's OAuth2 Client](https://github.com/thephpleague/oauth2-client) with `\KevinEm\OAuth2\Client\AdobeSign` as the provider.
+Use [The League's OAuth2 Client](https://github.com/thephpleague/oauth2-client) with `\Eazieer\OAuth2\Client\AdobeSign` as the provider.
 
 ### Authorization Code Flow
 
 ```php
-$provider = new KevinEm\OAuth2\Client\AdobeSign([
+$provider = new Eazieer\OAuth2\Client\AdobeSign([
     'clientId'          => 'your_client_id',
     'clientSecret'      => 'your_client_secret',
     'redirectUri'       => 'your_callback',

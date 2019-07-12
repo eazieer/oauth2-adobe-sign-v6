@@ -1,7 +1,7 @@
 <?php
 
 
-namespace KevinEm\OAuth2\Client;
+namespace Eazieer\OAuth2\Client;
 
 
 use League\OAuth2\Client\Provider\AbstractProvider;
@@ -12,7 +12,7 @@ use Psr\Http\Message\ResponseInterface;
 
 /**
  * Class AdobeSign
- * @package KevinEm\OAuth2\Client
+ * @package Eazieer\OAuth2\Client
  */
 class AdobeSign extends AbstractProvider
 {
