@@ -61,7 +61,7 @@ class AdobeSignTest extends \PHPUnit_Framework_TestCase
         $url = $this->provider->getAuthorizationUrl();
         $uri = parse_url($url);
 
-        $this->assertEquals('secure.na1.echosign.com', $uri['host']);
+        $this->assertEquals('secure.eu1.echosign.com', $uri['host']);
         $this->assertEquals('/public/oauth', $uri['path']);
     }
 
