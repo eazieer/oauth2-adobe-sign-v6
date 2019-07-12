@@ -24,7 +24,7 @@ class AdobeSign extends AbstractProvider
     /**
      * @var string
      */
-    protected $dataCenter = 'secure.na1';
+    protected $dataCenter = 'secure.eu1';
 
     /**
      * AdobeSign constructor.
@@ -186,7 +186,8 @@ class AdobeSign extends AbstractProvider
     protected function getAuthorizationHeaders($token = null)
     {
         return [
-            'Access-Token' => $token
+            'Access-Token' => $token,
+              'Authorization' => 'Bearer '.$token
         ];
     }
 
